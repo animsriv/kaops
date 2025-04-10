@@ -5,7 +5,7 @@ metadata:
 spec:
   forProvider:
     source: Remote
-    module: git::https://github.com/nethopper2/kaops.git//demo/iac/aws-vpc
+    module: git::https://github.com/animsriv/nethopper2/kaops.git//demo/iac/aws-vpc
   writeConnectionSecretToRef:
     namespace: default
     name: terraform-vpc-aws
