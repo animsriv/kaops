@@ -1,6 +1,6 @@
 provider "aws" {
   shared_credentials_files = ["aws-creds.ini"]
-  region = "us-west-1"
+  region = "us-east-1"
 }
 
 // Modules _must_ use remote state. The provider does not persist state.
